@@ -1,7 +1,6 @@
 {
   "name": "cb4",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +8,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-   
-    "express": "^4.12.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "mongoose": "^7.0.3"
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saghro/Mongose-pro.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/saghro/Mongose-pro/issues"
+  },
+  "homepage": "https://github.com/saghro/Mongose-pro#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
   }
 }
